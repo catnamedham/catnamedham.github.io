@@ -112,7 +112,7 @@ class LifeState {
   }
 }
 
-let resolution = 10; // changes the size of each cell
+let resolution = 25; // changes the size of each cell
 rows = Math.floor(window.innerHeight / resolution);
 cols = Math.floor(window.innerWidth / resolution);
 let lifeState = new LifeState(rows, cols, () => Boolean(Math.floor(Math.random() * 2)));
