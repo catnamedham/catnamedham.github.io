@@ -8,7 +8,7 @@ function getRandInt(max) {
   return Math.floor(Math.random() * max) + 1;
 }
 
-// fills array with ints from 1 to size, and shuffles it
+// fills array with src names, and shuffles it
 function resetArray(array, size) {
   for (let i = 0; i < size; i++) {
     let imageSrc = `images/image (${(i + 1).toString(10)}).jpg`;
